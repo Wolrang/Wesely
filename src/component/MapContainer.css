@@ -1,0 +1,9 @@
+.MapContainer-box {
+  display: flex;
+  justify-content: center;
+}
+
+#myMap {
+  width: 95%;
+  height: 400px;
+}

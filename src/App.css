@@ -1,0 +1,38 @@
+/* 공통컬러 속성지정  */
+:root {
+  --font-noto: "noto";
+  --blue-color: #4b4eba;
+  --yellow-color: #f0c648;
+  --skyblue-color: #afe0fe;
+  --border-color: #d9d9d9;
+}
+
+/* 폰트 전체 사이즈를 html에 선언 */
+html {
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 768px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: var(--font-noto);
+}
+
+input {
+  border: transparent;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
