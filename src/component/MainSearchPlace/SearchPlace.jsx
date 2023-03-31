@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import MapContainer from './MapContainer'
+import MapContainer from '../MainMapContainer/MapContainer'
 import './SearchPlace.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'

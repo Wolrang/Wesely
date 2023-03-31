@@ -1,15 +1,13 @@
 import './App.css';
-import MapContainer from './component/MapContainer';
-import SearchPlacs from './component/SearchPlace';
-import Nav from './component/Nav';
-import Bottombar from './component/BottomBar'
+import MapContainer from './component/MainMapContainer/MapContainer';
+import SearchPlacs from './component/MainSearchPlace/SearchPlace';
+import Nav from './component/Nav/Nav';
 
 function App() {
   return (
     <div className="App">
       <Nav></Nav>
       <SearchPlacs></SearchPlacs>
-      <Bottombar></Bottombar>
     </div>
   );
 }
